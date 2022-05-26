@@ -6,17 +6,7 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BBF21461283E703C0037AFAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF21460283E703C0037AFAB /* AppDelegate.swift */; };
-		BBF21463283E703C0037AFAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF21462283E703C0037AFAB /* SceneDelegate.swift */; };
-		BBF21465283E703C0037AFAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF21464283E703C0037AFAB /* ViewController.swift */; };
-		BBF21468283E703C0037AFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF21466283E703C0037AFAB /* Main.storyboard */; };
-		BBF2146A283E703E0037AFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF21469283E703E0037AFAB /* Assets.xcassets */; };
-		BBF2146D283E703E0037AFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF2146B283E703E0037AFAB /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		BBF2145D283E703C0037AFAB /* vk_11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vk_11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF21460283E703C0037AFAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF21462283E703C0037AFAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBF21464283E703C0037AFAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,16 +15,6 @@
 		BBF2146C283E703E0037AFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBF2146E283E703E0037AFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		BBF2145A283E703C0037AFAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BBF21454283E703C0037AFAB = {
@@ -48,7 +28,6 @@
 		BBF2145E283E703C0037AFAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBF2145D283E703C0037AFAB /* vk_11.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,26 +48,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		BBF2145C283E703C0037AFAB /* vk_11 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BBF21471283E703E0037AFAB /* Build configuration list for PBXNativeTarget "vk_11" */;
-			buildPhases = (
-				BBF21459283E703C0037AFAB /* Sources */,
-				BBF2145A283E703C0037AFAB /* Frameworks */,
-				BBF2145B283E703C0037AFAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = vk_11;
-			productName = vk_11;
-			productReference = BBF2145D283E703C0037AFAB /* vk_11.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		BBF21455283E703C0037AFAB /* Project object */ = {
 			isa = PBXProject;
@@ -96,11 +55,6 @@
 				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
-				TargetAttributes = {
-					BBF2145C283E703C0037AFAB = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-				};
 			};
 			buildConfigurationList = BBF21458283E703C0037AFAB /* Build configuration list for PBXProject "vk_11" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -115,36 +69,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBF2145C283E703C0037AFAB /* vk_11 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BBF2145B283E703C0037AFAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBF2146D283E703E0037AFAB /* LaunchScreen.storyboard in Resources */,
-				BBF2146A283E703E0037AFAB /* Assets.xcassets in Resources */,
-				BBF21468283E703C0037AFAB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		BBF21459283E703C0037AFAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBF21465283E703C0037AFAB /* ViewController.swift in Sources */,
-				BBF21461283E703C0037AFAB /* AppDelegate.swift in Sources */,
-				BBF21463283E703C0037AFAB /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		BBF21466283E703C0037AFAB /* Main.storyboard */ = {
@@ -282,66 +209,6 @@
 			};
 			name = Release;
 		};
-		BBF21472283E703E0037AFAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vk_11/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SZ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BBF21473283E703E0037AFAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vk_11/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SZ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,15 +217,6 @@
 			buildConfigurations = (
 				BBF2146F283E703E0037AFAB /* Debug */,
 				BBF21470283E703E0037AFAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BBF21471283E703E0037AFAB /* Build configuration list for PBXNativeTarget "vk_11" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBF21472283E703E0037AFAB /* Debug */,
-				BBF21473283E703E0037AFAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
